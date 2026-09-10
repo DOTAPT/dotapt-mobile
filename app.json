@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "react-native-prod-template",
+    "slug": "react-native-prod-template",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "reactnativeprodtemplate",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reactnativeprodtemplate"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.reactnativeprodtemplate"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./src/assets/splash-icon.png"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/fonts/Inter-VariableFont_opsz,wght.ttf"
+          ]
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
